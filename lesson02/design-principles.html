@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shawn Henrie - WDD 230 - Design Principles Document</title>
+    <meta name="description" content="Shawn Henrie - WDD 230 - Web Frontend Development - Design Principles Document">
+    <meta name="author" content="Shawn Henrie Jr.">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-medium.css">
+    <link rel="stylesheet" href="styles/base-large.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Design Principles Document</h1>
+        <h2>Shawn I. Henrie Jr.</h2>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Visual Hierarchy</h2>
+            <h3>Google</h3>
+            <a href="Google.com">Google.com</a>
+            <img src="images/google.png" alt="Google Mobile Screenshot">
+            <p>The purpose of Visual Hierarchy is to create a focal point in the site.
+                The Google website is a clear example of this. The center is the focus, especially
+                the search bar. There is plenty of white space around the center which draws the user to the center,
+                where most of the content is located. 
+            </p>
+        </section>
+        <section class="card">
+            <h2>Rule of Thirds</h2>
+            <h3>Apple</h3>
+            <a href="apple.com">Apple.com</a>
+            <img src="images/apple.png" alt="Apple Mobile Screenshot">
+            <p>Rule of thirds is a visual guide when it comes to creating focus and drawing the attention of the user.
+                Imagine there is a 3 by 3 grid on the screen and the intersections of those points have a foucs. In this case,
+                two of those points towards the apple watches which are pleasing to the eye and could draw users to look more 
+                into them.</p>
+        </section>
+        <section class="card">
+            <h2>Hick's Law</h2>
+            <h3>Youtube</h3>
+            <a href="youtube.com">Youtube.com</a>
+            <img src="images/youtube.png" alt="Youtube Mobile Screenshot">
+            <p>Hick's Law means that the more options or choices that are available, the more time that a person decides to make
+                a decision, in web design terms, this allows users that visit the page to stay longer as they make a decision. 
+                Youtube has plenty of videos to choose from and watch, and they are specifically tailored for every user. This 
+                makes making a descision for the user to take longer as they decide on what to watch and may never see the other
+                options again. 
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> | Shawn Henrie Jr. | ID, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="../scripts/getdates.js"></script>
 </body>
 </html>
