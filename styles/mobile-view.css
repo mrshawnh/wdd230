@@ -26,26 +26,6 @@ header h1{
     display: block;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    background-color: #666a86;
-}
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    padding: 20px;
-    font-family: 'Goldman', sans-serif;
-    font-size: 1.5em;
-}
-
-nav a:hover {
-    background-color: #edffab;
-    color: #bfd1e5;
-}
-
 /* Menu */
 
 #menu {
@@ -61,10 +41,37 @@ nav a:hover {
 	content: "☰";
 }
 
+#menu.open::before{
+    content: "❌";
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    font-family: 'Goldman', sans-serif;
+    font-size: 1em;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+.open ul{
+    display: block;
+}
+
+
 /* Main */
 
 main{
-
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -95,6 +102,12 @@ main h2{
 
 .card li{
     list-style-type: none;
+}
+
+iframe {
+    display: block;
+    grid-column: 2/3;
+    justify-content: center;
 }
 
 /* footer */
