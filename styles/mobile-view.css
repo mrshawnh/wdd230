@@ -35,6 +35,7 @@ header h1{
 	color: #000;
  	position: absolute;
 	left: 1rem;
+    top: 1rem;
 }
 
 #menu::before {
@@ -48,6 +49,7 @@ header h1{
 nav a{
     text-decoration: none;
     color: black;
+    background-color: #75b9be;
     display: block;
     text-align: center;
     font-family: 'Goldman', sans-serif;
@@ -106,8 +108,9 @@ main h2{
 
 iframe {
     display: block;
-    grid-column: 2/3;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
 }
 
 /* footer */
@@ -118,3 +121,28 @@ footer{
     font-family: 'Goldman', sans-serif;
 }
 
+#hero{
+    position: relative;
+    margin: 20px;
+}
+
+#hero-image img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #bfd1e5;
+    margin-top: 15px;
+}
+
+#hero-title{
+    position: absolute;
+	top: 25px;
+	left: 90px;
+	background: radial-gradient(#fff, skyblue);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 0.8rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+    font-family: 'Goldman', sans-serif;
+}

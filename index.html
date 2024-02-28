@@ -19,7 +19,7 @@
 
 <body>
     <header>
-        <img src="images/profile-pic.jpg" alt="Profile Picture">
+        <img src="images/profile-pic.webp" alt="Profile Picture">
         <h1>Shawn Henrie Jr.</h1>
         <button id="menu"></button>
     </header>
@@ -32,6 +32,15 @@
             <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a></li>
         </ul>
     </nav>
+    <div id="hero">
+    <picture id="hero-image">
+        <source srcset="images\San-Diego-California.webp" media="(max-width: 960px)">
+        <img src="images\san-diego-night.webp" alt="San Diego Temple">
+    </picture>
+    <div id="hero-title">
+        <p>San Diego Temple</p>
+    </div>
+    </div>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
@@ -56,9 +65,9 @@
             <p>Weather</p>
             <p>Number of Visits</p>
         </section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d35095.67185892946!2d-116.31772776865712!3d43.56042336117586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1708434135490!5m2!1sen!2sus" 
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
       </main>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d35095.67185892946!2d-116.31772776865712!3d43.56042336117586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1708434135490!5m2!1sen!2sus" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
     <footer>
         <p>&copy;<span id="year"></span> | Shawn Henrie Jr. | ID, USA</p>
         <p id="lastModified"></p>
