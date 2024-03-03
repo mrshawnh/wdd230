@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shawn Henrie - WDD 230 - Chamber Site</title>
+    <title>Shawn Henrie - WDD 230 - Chamber of Commerce</title>
     <meta name="description" content="Shawn Henrie - WDD 230 - Chamber Site - Project for the Chamber Site">
     <meta name="author" content="Shawn Henrie Jr.">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="icon" href="images/favicon.ico">
-    <meta property="og:title" content=""/>
-    <meta property="og:type" content=""/>
-    <meta property="og:image" content=""/>
-    <meta property="og:url" content=""/>
+    <meta property="og:title" content="Marinduque - Wikipedia Page"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://en.wikipedia.org/wiki/Marinduque#/media/File:Marinduque_2.JPG"/>
+    <meta property="og:url" content="https://en.wikipedia.org/wiki/Marinduque"/>
 </head>
 <body>
     <header>
@@ -26,33 +26,37 @@
         </nav>
     </header>
     <main>
-        <section id="intro">
+        <section class="intro">
             <h2>Welcome to the Marinduque Chamber of Commerce</h2>
             <h3>This is the home island in which the chamber operates</h3>
             <p>The Marinduque Chamber of Commerce acts as a portal to introduce this wonderful place to all. 
                 Discover the history of this tiny island, the many tourist spots, and local businesses. 
                 Contains how-to-guides to make your visit to the "Heart of the Philippines" wonderful and worry free.
             </p>
-            <img id="hero-image" src="#" alt="hero-image placeholder">
+            <picture class="hero-image">
+                <source srcset="chamber\images\wdd230-org-small.webp" media="max-width: 500px">
+                <source srcset="chamber\images\wdd230-org-medium.webp" media="max-width: 960px">
+                <img src="images/wdd230-large.webp" alt="hero image">
+            </picture>
             <button id="call-to-action">Join us!</button>
         </section>
-        <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d248416.98502858347!2d121.83084601721127!3d13.380381669789676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1708839046938!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d248416.98502858347!2d121.83084601721127!3d13.380381669789676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1708839046938!5m2!1sen!2sus" width="600" height="450" style="border: 5pxpx solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+        <h2>Current Events</h2>
         <section id="events">
-            <h2>Current Events</h2>
-            <div id="event">
+            <div class="event" id="event1">
                 <h3>Pulang Lupa Day</h3>
                 <p>On September 13th, come hike up to the Pulang Lupa shrine and see come know the history of one of the battles during the Filipino-American
                 war that the local people won over 100 years ago.</p>
             </div>
-            <div id="event">
+            <div class="event" id="event2">
                 <h3>Holy Week in Marinduque</h3>
                 <p>Come join in before Easter Sunday. The Moriones Festival, where people dress up as Roman Soldiers, and based on Saint Longinus, a Roman
                     Centorion who is blind in one eye. Come enjoy the festivities. 
                 </p>
             </div>
-            <div id="event">
+            <div class="event" id="event3">
                 <h3>Christmas</h3>
                 <p>Come visit during the Holiday Season and explore the 6 towns. All with wonderful decorations and activities during Christmas time!
                     As we remember the Savior's birth and how important He is in our lives. You wouldn't want to miss it. 
@@ -62,18 +66,17 @@
         <section id="weather">
             <h2>Weather: Hot</h2>
         </section>
-        <section id="spotlights">
-            <div>
+        <section class="spotlights">
+            <div class="spotlight">
                 <h2>Spotlight 1</h2>
             </div>
-            <div>
+            <div class="spotlight">
                 <h2>Spotlight 2</h2>
             </div>
-            <div>
+            <div class="spotlight">
                 <h2>Spotlight 3</h2>
             </div>
         </section>
-
     </main>
     <footer>
         <h2>Phone number : 208-208-2082</h2>
