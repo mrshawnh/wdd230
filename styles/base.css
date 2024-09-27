@@ -25,20 +25,19 @@ header span {
 nav {
     background-color: #edffab;
     border: 2px solid black ;
+    text-align: center;
     
 }
 
 nav ul {
-    list-style-type: none;  
+    list-style-type: none; 
+    justify-content: center;
 }
 
 nav li {
-    display: block;
     color: black;
-    text-align: center;
     padding: .5rem;
     text-decoration: none;
-    
 }
 
 nav li:hover {
@@ -66,7 +65,5 @@ main h1 {
     background-color: #edffab;
     border: 2px solid black ;
     padding: 1rem;
-    margin-top: .3rem;
-    margin-bottom: .3rem
-    ;
+    margin: .3rem;
 }
