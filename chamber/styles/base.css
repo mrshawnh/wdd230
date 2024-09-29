@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+/* Header */
+
+:root{
+    --background-color1: #2c4251;
+    --background-color2: #72ddf7;
+    --text-color1: #7cea9c;
+    --text-color2: #2c4251;
+    --font-default: "Oswald:wght@300", sans-serif;
+    --font-headings: "Oswald:wght@500", sans-serif;
+}
+
+header{
+    background-color: var(--background-color1);
+    color: var(--text-color1);
+    font-family: var(--font-headings);
+    padding-bottom: 1.2rem;
+}
+
+header h1{
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+}
+
+/* Hamburger Menu */
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before{
+    content: "❌";
+}
+
+#menu{
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    padding-left: 1rem;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: none;
+    padding-bottom: 1rem;
+}
+
+nav li{
+    list-style-type: none;
+    padding-top: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: var(--background-color1);
+}
+
+nav li a{
+    font-family: var(--font-headings);
+    color: var(--text-color1);
+    display: block;
+    text-align: center;
+}
+
+nav li a:hover{
+    color: var(--text-color2);
+    background-color: var(--background-color2);
+}
+
+.open ul{
+    display: block;
+}
+
+/* Intro */
+
+.intro{
+    margin-top: -1.25rem;
+    background-color: var(--background-color2);
+    padding-bottom: 1rem;
+}
+.intro h2, .intro h3{
+    color: var(--text-color2);
+    font-family: var(--font-headings);
+}
+
+.intro p{
+    color: var(--text-color2);
+    font-family: var(--font-default);
+}
+
+.hero-image img{
+    display: block;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+
+#call-to-action{
+    display: block;
+    margin:  1rem auto 1rem auto ;
+}
+
+.frame{
+    background-color: var(--background-color2);
+    padding-bottom: 1rem;
+}
+
+iframe{
+    display: block;
+    background-color: var(--background-color2);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 5px solid black;
+}
+
+h2{
+    background-color: var(--background-color2);
+    padding-top: 2rem;
+    margin:  -1rem auto -1rem auto ;
+    padding-bottom: 3rem;
+    font-family: var(--font-headings);
+    color: var(--text-color2);
+
+}
+
+#events{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: var(--background-color2);
+}
+
+.event{
+    display: block;
+    max-width: 145px;
+    border: 3px solid black;
+    margin-left: 10px;
+    background-color: var(--background-color1);
+    color: var(--text-color1);
+}
+
+.event h3, .event p{
+    text-align: center;
+}
+
+
