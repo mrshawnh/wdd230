@@ -34,18 +34,21 @@ nav ul {
     justify-content: center;
 }
 
-nav li {
+nav a {
     color: black;
     padding: .5rem;
     text-decoration: none;
+   
 }
 
-nav li:hover {
-    background-color: rgba(0,0,0, 0.1);
+nav a:hover {
+    background-color: rgba(255,255,255, 0.1);
 }
 
 nav .active {
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(0,0,0, 0.2);
+    
+
 }
 
 
