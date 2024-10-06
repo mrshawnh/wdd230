@@ -20,6 +20,47 @@ header span {
 }
     
 
+/* buttons */
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+	left: 1rem;
+    top: 1rem;
+}
+
+#mode {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+ 	position: absolute;
+	right: 1rem;
+    top: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before{
+    content: "❌";
+}
+
+#mode::before {
+	content: "😎";
+}
+
+#mode.open::before{
+    content: "🌞";
+}
+
+body.open {
+    background-color: black;
+    color: white;
+}
 /* nav */
 
 nav {
@@ -32,6 +73,7 @@ nav {
 nav ul {
     list-style-type: none; 
     justify-content: center;
+    display: none;
 }
 
 nav a {
@@ -47,8 +89,10 @@ nav a:hover {
 
 nav .active {
     background-color: rgba(0,0,0, 0.2);
-    
+}
 
+.open ul{
+    display: block;
 }
 
 
@@ -70,3 +114,4 @@ main h1 {
     padding: 1rem;
     margin: .3rem;
 }
+
