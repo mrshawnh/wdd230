@@ -18,4 +18,25 @@
     #menu{
         display: none;
     }
+
+    /*discover page */
+
+    #discover-main{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .events-discover{
+        grid-column: 1/2;
+    }
+
+    .events-discover h2{
+        margin-top: 0.5rem;
+    }
+
+    .events-discover .event{
+        max-width: 500px;
+    }
+
+
 }

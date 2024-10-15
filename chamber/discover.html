@@ -7,8 +7,7 @@
     <meta name="description" content="Shawn Henrie - WDD 230 - Chamber Site - Project for the Chamber Site">
     <meta name="author" content="Shawn Henrie Jr.">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Marinduque - Wikipedia Page"/>
     <meta property="og:type" content="website"/>
@@ -22,40 +21,83 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Discover</a></li>
+                <li><a href="discover.html">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
             </ul>
+        </nav>
+        <span id="visit-date"></span>
     </header>
     <main id="discover-main">
-    
-    <section id="events">
+    <section class="events-discover">
         <h2>Current Events</h2>
-        <div class="event" id="event1">
+        <div class="event" id="discover-event">
             <h3>Pulang Lupa Day</h3>
             <p>On September 13th, come hike up to the Pulang Lupa shrine and see come know the history of one of the battles during the Filipino-American
             war that the local people won over 100 years ago.</p>
         </div>
-        <div class="event" id="event2">
+        <div class="event" id="discover-event">
             <h3>Holy Week in Marinduque</h3>
             <p>Come join in before Easter Sunday. The Moriones Festival, where people dress up as Roman Soldiers, and based on Saint Longinus, a Roman
                 Centorion who is blind in one eye. Come enjoy the festivities. 
             </p>
         </div>
-        <div class="event" id="event3">
+        <div class="event" id="discover-event">
             <h3>Christmas</h3>
             <p>Come visit during the Holiday Season and explore the 6 towns. All with wonderful decorations and activities during Christmas time!
                 As we remember the Savior's birth and how important He is in our lives. You wouldn't want to miss it. 
             </p>
         </div>
+    </section>
+
+    <section>
+        <div class="discover-pics" id="picture1">
+            <picture>
+                <img src="images/discover-image1.webp" alt="White Beach 1" loading="lazy">
+            </picture>
+            <span>White Beach</span>
+        </div>
+        <div class="discover-pics" id="picture2">
+            <picture>
+            <img src="images/discover-image2.webp" alt="Farmland" loading="lazy">
+            </picture>
+            <span>Local Farmland</span>
+        </div>
+        <div class="discover-pics" id="picture3">
+            <picture>
+                <img src="images/discover-image3.webp" alt="Ocean" loading="lazy">
+            </picture>
+            <span>Ocean View</span>
+        </div>
+        <div class="discover-pics" id="picture4">
+            <picture>
+                <img src="images/discover-image4.webp" alt="Mountains" loading="lazy">
+            </picture>
+            <span>Mountains</span>
+        </div>
+        <div class="discover-pics" id="picture5">
+            <picture>
+                <img src="images/discover-image5.webp" alt="White Beach 2" loading="lazy">
+            </picture>
+            <span>White Beach</span>
+        </div>
+        <div class="discover-pics" id="picture6">
+            <picture>
+                <img src="images/discover-image6.webp" alt="Christmas Time" loading="lazy">
+            </picture>
+            <span>Christmas Time</span>
+        </div>
         
+    </section>
     </main>
-    <footer>
-        <h2>Phone number : 208-208-2082</h2>
-        <h2>Email: Marinduque@Marinduque.com</h2>
+    <footer class="discover-footer">
+        <p>Phone number : 208-208-2082</p>
+        <p>Email: Marinduque@Marinduque.com</p>
         <p>&copy;<span id="year"></span> | Shawn Henrie Jr. | WDD 230 - Project</p>
         <p id="lastModified"></p>
     </footer>
     <script src="../scripts/getdates.js"></script>
+    <script src="/scripts/hamburger.js"></script>
+    <script src="scripts/timestamps.js"></script>
 </body>
 </html>

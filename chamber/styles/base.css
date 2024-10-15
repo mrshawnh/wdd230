@@ -134,6 +134,7 @@ h2{
     border: 3px solid black;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0.5rem;
     background-color: var(--background-color1);
     color: var(--text-color1);
 }
@@ -175,8 +176,45 @@ h2{
     text-align: center;
 }
 
-footer{
+footer {
     background-color: var(--background-color2);
     color: var(--text-color2);
-    font-family: var(--font-headings);
+    font-family: var(--font-default)
+}
+
+/* discover page */
+
+#discover-main{
+    background-color: var(--background-color2);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.events-discover h2{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.discover-pics img{
+    margin: 0.5rem 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    
+}
+
+.discover-pics{
+    display: block;
+    position: relative;
+    
+}
+
+.discover-pics span{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 5px;
+    background-color: rgba(255,255,255, 0.2);
+    
 }
