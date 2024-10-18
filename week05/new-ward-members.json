@@ -1,0 +1,20 @@
+{
+    "familyName": "Selorio",
+    "dateMoved": "October 12, 2024",
+    "peopleInFamily": 2,
+    "bishopVisited": false,
+    "members": [
+        {
+            "name": "Nicole",
+            "age": 22,
+            "birthdate": "April 22, 2002"
+        },
+        {
+            "name": "Barbie",
+            "age": 0,
+            "birthdate": "January 20,2024"
+        }
+    ]
+
+
+}

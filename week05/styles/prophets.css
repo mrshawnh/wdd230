@@ -1,0 +1,21 @@
+body{
+    background-color: lightgray;
+    text-align: center;
+}
+
+#cards section{
+    display: block;
+    border: 5px solid black;
+    margin: .5rem;
+    background-color: paleturquoise;
+}
+
+#cards img{
+    border: 2px solid black;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
