@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form - Week04 Activity</title>
+    <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
     <header>
         <img src="images/profile-pic.jpg" alt="Profile Picture">
         <span>Shawn Henrie</span>
-        <button id="menu"></button>
-        <button id="mode"></button>
     </header>
     <nav>
         <ul class="navigation">
@@ -21,26 +20,35 @@
         </ul>
     </nav>
     <main>
-        <fieldset>
-            <label>Username <input type="text" id="username" name="username" required></label>
-            <label>Password <input type="password" id="pwd" name="pwd" pattern="[A-Za-z0-9]{8}"></label>
-            <label>Retype Password <input type="password" id="checkpwd" name="checkpwd" pattern="[A-Za-z0-9]{8}"></label>
-            <label>Email <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="Please enter a valid email address" required></label>
-            <label>Page Rating <input type="range" id="range" name="range" min="0" max="5" value="0" step="1" list="rangevalues"></label>
-            <datalist id="rangevalues">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </datalist>
-        </fieldset>
+        <h1>Login</h1>
+        <form method="get" action="thanks.html" class="form">
+            <fieldset>
+                <label>Username* <input type="text" id="username" name="username" required></label>
+                <label>Password* <input type="password" id="pwd" name="pwd" pattern="[A-Za-z0-9]{8,}"></label>
+                <label>Retype Password* <input type="password" id="checkpwd" name="checkpwd" pattern="[A-Za-z0-9]{8,}"></label>
+                <label>Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="someone@gmail.com" required></label>
+                <div id="range">0</div>
+                <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </datalist>
+                <label><input type="submit" value="Login"></label>
+            </fieldset>
+        </form>
     </main>
     <footer>
         <p>&copy;<span id="year"></span> | Shawn Henrie Jr. | ID, USA</p>
         <p id="lastModified"></p>
     </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/rangevalues.js"></script>
+
+
     
 </body>
 </html>

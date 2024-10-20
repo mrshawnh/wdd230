@@ -1,0 +1,117 @@
+:root{
+    --background-color1: #75b9be;
+    --text-color1: #7cea9c;
+    --text-color2: #2c4251;
+    --font-default: font-family: "Lato", sans-serif;
+}
+
+body {
+    font-family: var(--font-default);
+    background-color: var(--background-color1);
+}
+
+
+
+/* header */
+
+header img, header span {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header span {
+    text-align: center;
+    padding: 10px;
+}
+
+/* nav */
+
+nav {
+    background-color: #edffab;
+    border: 2px solid black ;
+    text-align: center;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Goldman', sans-serif;
+    font-size: 1.5em;
+    display: block;
+}
+
+nav a:hover {
+    background-color: rgba(255,255,255, 0.1);
+}
+
+h1{
+    font-family: var(--font-default);
+    color: black;
+}
+
+/* Form Formating */
+
+.form fieldset{
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0.5rem 0%;
+    background-color: var(--text-color2);
+}
+
+.form legend{
+    padding: 0 .5rem;
+    
+}
+.form label{
+    display: block;
+    padding-top: 1rem;
+    padding-left: 6px;
+    color: var(--text-color1);
+    font-size: 1rem;
+}
+
+#range{
+    display: block;
+    padding-top: 1rem;
+    padding-left: 6px;
+    color: var(--text-color1);
+    font-size: 1rem;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"],
+.form input[type="range"]{
+    background-color: black;
+    display: block;
+    border: solid 1px #999;
+    padding: 0.1rem 0.75rem;
+    color: var(--text-color1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(var(--text-color1), var(--background-color1));
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+    appearance: none;
+}
+
+
