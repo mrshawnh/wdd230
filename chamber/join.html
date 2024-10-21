@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shawn Henrie - WDD 230 - Chamber of Commerce</title>
+    <meta name="description" content="Shawn Henrie - WDD 230 - Chamber Site - Project for the Chamber Site">
+    <meta name="author" content="Shawn Henrie Jr.">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Marinduque - Wikipedia Page"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://en.wikipedia.org/wiki/Marinduque#/media/File:Marinduque_2.JPG"/>
+    <meta property="og:url" content="https://en.wikipedia.org/wiki/Marinduque"/>
+</head>
+<body>
+    <header>
+        <h1>Marinduque Chamber of Commerce</h1>
+        <button id="menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="join-main">
+        <h1>Join the Marinduque Chamber of Commerce Page</h1>
+        <form action="thanks.html" method="get" class="joinForm">
+            <fieldset>
+                <label>First Name* <input type="text" name="fname" required id="fname"></label>
+                <label>Last Name* <input type="text" name="lname" required id="lname"></label>
+                <label>Job Title/Position <input type="text" name="jobTitle" id="jobTitle" pattern="[A-Za-z]{7,}"></label>
+                <label>Email Address* <input type="email" name="email" id="email" placeholder="someone@gmail.com"></label>
+                <label>Phone Number* <input type="tel" name="phone" id="phone" required placeholder="1230001234"></label>
+                <div>Membership Level</div>
+                <label><input type="radio" name="membership" id="membership" value="bronze">Bronze Membership</label>
+                <label><input type="radio" name="membership" id="membership" value="silver">Silver Membership</label>
+                <label><input type="radio" name="membership" id="membership" value="gold">Gold Membership</label>
+                <label><input type="radio" name="membership" id="membership" value="NP">NP Membership</label>
+                <div>Enter short business/organiztion description</div>
+                <label><textarea name="description" id="description" rows="20" cols="55" placeholder="Business/Organization description"></textarea></label>
+                <label><input type="hidden" name="timestamp" id="timestamp"></label>
+                <label><input type="submit" value="Join Page"></label>
+            </fieldset>
+        </form>
+        <div class="membership-levels">
+            <div>
+                <h2>Bronze Memebership</h2>
+            <p>Bronze Members get special event postings on our website.</p>
+            </div>
+            <div>
+                <h2>Silver Memebership</h2>
+                <p>Silver Members get special event postings on our website, 
+                    and event coverage via a page.</p>
+            </div>
+           <div>
+            <h2>Gold Memebership</h2>
+            <p>Gold Members get special event postings on our website, 
+             event coverage via a page, and event spotlights on our homepage. </p>
+           </div>
+           <div>
+            <h2>NP Membership</h2>
+            <p>The NP Membership a.k.a. "The Non-Profit Membership" is our 
+                special membership designed for 
+                Non-Profits and has the same 
+                perks as Gold members.</p>
+           </div>
+        </div>
+    </main>
+    <footer>
+        <p>Phone number : 208-208-2082</p>
+        <p>Email: Marinduque@Marinduque.com</p>
+        <p>&copy;<span id="year"></span> | Shawn Henrie Jr. | WDD 230 - Chamber Site</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="../scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+</html>

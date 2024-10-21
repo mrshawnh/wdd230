@@ -1,5 +1,13 @@
 @media screen and (min-width: 640px){
 
+    :root{
+        --background-color1: #2c4251;
+        --background-color2: #72ddf7;
+        --text-color1: #7cea9c;
+        --text-color2: #2c4251;
+        --font-default: "Oswald:wght@300", sans-serif;
+        --font-headings: "Oswald:wght@500", sans-serif;
+    }
     nav ul{
         display: flex;
         justify-content: space-around;
@@ -36,6 +44,39 @@
 
     .events-discover .event{
         max-width: 500px;
+    }
+
+
+    /* join page */
+
+    #join-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #join-main h1{
+        grid-column: 1/3;
+    }
+
+    .joinForm{
+        grid-column: 1/2;
+    }
+
+    .membership-levels{
+        grid-column: 2/3;
+        display: block;
+        
+    }
+
+    .joinForm{
+        width: 800px;
+    }
+
+    .membership-levels div{
+        color: var(--text-color1);
+        background-color: var(--background-color1);
+        margin-left: -10rem;
+        margin-right: 8rem;
     }
 
 

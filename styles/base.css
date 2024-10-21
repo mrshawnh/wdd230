@@ -101,6 +101,7 @@ nav .active {
 main {
     display: grid;
     grid-template-columns: 1fr;
+    background-color: #75b9be;
 }
 
 main h1 {
