@@ -15,12 +15,10 @@ function displayLinks(weeks) {
     weeks.forEach((week) => {
 
         let weekName = document.createElement('h3');
-        let activityList = document.createElement('li');
-        let activity = document.createElement('a');
+        
 
         weekName.textContent = `${week.week}`;
-        activity.textContent = `${links.name}`;
-        activity.setAttribute('href', links.link);
+
 
         ul.appendChild(weekName);
         
