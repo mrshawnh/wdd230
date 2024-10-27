@@ -6,7 +6,7 @@
             "website": "https://www.facebook.com/Matimtimmarketing/",
             "phone": "0969 434 5853",
             "membership": "Gold",
-            "logo": "chamber/images/matimtim.webp"
+            "logo": "https://mrshawnh.github.io/wdd230/chamber/images/matimtim.webp"
         },
         {
             "name": "Marelco Employees Assn",
@@ -14,7 +14,7 @@
             "website": "https://marelco.org.ph/",
             "phone": "042 332 2266",
             "membership": "Bronze",
-            "logo": "chamber/images/marelco.webp"
+            "logo": "https://mrshawnh.github.io/wdd230/chamber/images/marelco.webp"
         },
         {
             "name": "Collens Homemade Peanut Butter",
@@ -22,7 +22,7 @@
             "website": "https://www.facebook.com/collenshomemadepurepeanutbutter/",
             "phone": "0970 127 8590",
             "membership": "Silver",
-            "logo": "chamber/images/collens.webp"
+            "logo": "https://mrshawnh.github.io/wdd230/chamber/images/collens.webp"
         },
         {
             "name": "MarinduqueLand Corp",
@@ -30,7 +30,7 @@
             "website": "https://marinduqueland.com/",
             "phone": "123 456 7890",
             "membership": "NP",
-            "logo": "chamber/images/marinduqueland.webp"
+            "logo": "https://mrshawnh.github.io/wdd230/chamber/images/marinduqueland.webp"
         },
         {
             "name": "Philippine Ports Authority",
@@ -38,7 +38,7 @@
             "website": "https://www.ppa.com.ph/",
             "phone": "555 555 5555",
             "membership": "Gold",
-            "logo": "chamber/images/balanacan.webp"
+            "logo": "https://mrshawnh.github.io/wdd230/chamber/images/balanacan.webp"
         },
         {
             "name": "Brewista Coffee PH",
@@ -46,7 +46,7 @@
             "website": "https://www.facebook.com/brewistacoffeeph/",
             "phone": "098 765 4321",
             "membership": "Bronze",
-            "logo": "chamber/images/brewista.webp"
+            "logo": "https://mrshawnh.github.io/wdd230/chamber/images/brewista.webp"
         },
         {
             "name": "Marinduque State University",
@@ -54,7 +54,7 @@
             "website": "https://www.mscmarinduque.edu.ph/",
             "phone": "042 332 2028",
             "membership": "NP",
-            "logo": "chamber/images/msu.webp"
+            "logo": "https://mrshawnh.github.io/wdd230/chamber/images/msu.webp"
         }
     ]
 }
