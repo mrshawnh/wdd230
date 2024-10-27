@@ -1,0 +1,88 @@
+{
+    "weeks":[
+        {"week": "Week 1",
+        "links": [
+            {
+                "name": "Holy Grail",
+                "link": "week01/holygrail.html"
+            },
+            {
+                "name": "Applied Javascript",
+                "link": "https://codepen.io/Shawn-Henrie/pen/NWZQbEx"
+            },
+            {
+                "name": "Media Query Activity",
+                "link": "week01/media-query.html"
+            }
+        ]
+    },
+        {"week": "Week 2",
+        "links":[
+            {
+                "name": "Web Design Principles",
+                "link": "week02/design.html"
+            },
+            {
+                "name": "Responsive Menu",
+                "link": "https://codepen.io/Shawn-Henrie/pen/OJKyyvr"
+            },
+            {
+                "name": "DOM Manipulation",
+                "link": "week02/bom.html"
+            }
+        ]
+    },
+    {"week": "Week 3",
+    "links":[
+        {
+            "name": "WebP",
+            "link": "week03/images/landscape.webp"
+        },
+        {
+            "name": "LazyLoading",
+            "link": "week03/lazyload.html"
+        }
+    ]
+    },
+    {"week": "Week 4",
+    "links":[
+        {
+            "name": "Pseudo-Classes",
+            "link": "https://codepen.io/Shawn-Henrie/pen/qBeqmYp"
+        },
+        {
+            "name": "Combinators",
+            "link": "week04/images/combinators.webp"
+        },
+        {
+            "name": "HTML-Tables",
+            "link": "week04/tablebuild.html"
+        },
+        {
+            "name": "Form",
+            "link": "form-start/Form-start/index.html"
+        }
+    ]
+    },
+    {"week": "Week 4",
+    "links":[
+        {
+            "name": "CSS Pseudo-Elements",
+            "link": "https://codepen.io/Shawn-Henrie/pen/ZEgypNx"
+        },
+        {
+            "name": "JSON",
+            "link": "week05/new-ward-members.json"
+        },
+        {
+            "name": "Fetch API",
+            "link": "week05/prophets.html"
+        },
+        {
+            "name": "Weather",
+            "link": "week05/weather.html"
+        }
+    ]
+    }
+]
+}
