@@ -1,5 +1,5 @@
-const baseURL = 'https://github.com.io/mrshawnh/wdd230/';
-const linksURL = 'https://github.com.io/mrshawnh/wdd230/data/links.json';
+const baseURL = 'https://mrshawnh.github.io/wdd230//wdd230/';
+const linksURL = 'https://mrshawnh.github.io/wdd230/data/links.json';
 
 async function getLinks() {
     const response = await fetch(linksURL);
