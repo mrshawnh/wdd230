@@ -1,6 +1,6 @@
 const directory = document.querySelector("#directory");
 
-const json = "https://mrshawnh.github.io/wdd230/chamber/members.json";
+const json = "https://mrshawnh.github.io/wdd230/chamber/data/members.json";
 
 async function getMembers() {
     const response = await fetch(json);
