@@ -8,3 +8,5 @@ async function getMembers() {
     console.log(data);
     
 }
+
+getMembers();
