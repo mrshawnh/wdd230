@@ -38,7 +38,6 @@
             <picture class="hero-image">
                 <img src="images/hero-image.webp" alt="Hero Image">
             </picture>
-            <button id="call-to-action">Join us!</button>
         </section>
         <h2 id="current-e">Current Events</h2>
         <section id="events">
@@ -61,24 +60,33 @@
             </div>
         </section>
         <section id="weather">
-            <h2>Weather: Hot</h2>
+            <h1>Weather</h1>
+            <div>
+                <h2>Torrijos, Marinduque</h2>
+                <p><span id="current-temp"></span><figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure></p>
+            </div>
+            <div>
+                <p>Tomorrow - <span id="forecast1"></span></p>
+                <p>2 days from today-<span id="forecast2"></span></p>
+                <p>3 days from today-<span id="forecast3"></span></p>
+            </div>
         </section>
         <section id="spotlight-title">
             <h2>Spotlights</h2>
         </section>
-        <section class="spotlights">
-            <div class="spotlight">
-                <h3>Spotlight 1</h2>
-                <p>Filler 1</p>
-            </div>
-            <div class="spotlight">
-                <h3>Spotlight 2</h2>
-                <p>Filler 2</p>
-            </div>
-            <div class="spotlight">
-                <h3>Spotlight 3</h2>
-                <p>Filler 3</p>
-            </div>
+        
+            <div id="spotlight1"></div>
+            
+            
+                
+            <div id="spotlight2"></div>
+           
+                
+            <div id="spotlight3"></div>
+            
         </section>
     </main>
     <footer>
@@ -89,5 +97,7 @@
     </footer>
     <script src="../scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>
